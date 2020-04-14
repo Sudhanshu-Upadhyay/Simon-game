@@ -91,7 +91,7 @@ if(statusOfGame==true)
  statusOfGame=false;
 
 }
-else{alert("Please press key on key board"); }
+else{ }
 
 });
 $("#startButton").click(function(){
@@ -102,7 +102,7 @@ $("#startButton").click(function(){
    statusOfGame=false;
 
   }
-  else{alert("Please press key on key board or Start Button"); }
+  else{alert("Please refresh to restart the game"); }
 
 
 
